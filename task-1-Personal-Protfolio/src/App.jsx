@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-     <div className='relative z-0 bg-primary'> 
+     <div className='relative overflow-hidden z-0 bg-primary'> 
         <Navbar/>
       
       <Routes>
@@ -25,10 +25,6 @@ function App() {
             <Route path="/project/:id" element={<SingleProject />} />
         </Route>
       </Routes>
-
-        
-
-
 
      </div>
     </>

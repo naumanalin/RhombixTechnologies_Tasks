@@ -3,7 +3,7 @@ import Tilt from "react-tilt";
 import { motion } from 'framer-motion';
 import { projects } from '../constants/index.js';
 import { github } from "../assets";
-import { Link, useLocation, useParams } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const Projects = () => {
   const location = useLocation();
@@ -14,7 +14,7 @@ const Projects = () => {
      transition={{ duration:0.7, ease:"easeIn" }}
      whileInView={{ opacity:1, x:0}}
 
-     className="py-3" id="about">
+     className="py-3" id="projects">
       <p className="text-secondary tracking-wider text-sm">My Work</p>
       <h2 className="text-white font-black text-3xl sm:text-[50px] md:text-[60px] sm:mt-1 md:mt-3 ">Projects.</h2>
      </motion.div>

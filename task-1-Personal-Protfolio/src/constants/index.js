@@ -1,22 +1,25 @@
 import {
-  mobile, backend, creator, web, javascript,
-  html, css, reactjs, redux, tailwind,
-  nodejs, mongodb, git, figma, threejs, meta, starbucks,
-  tesla, shopify, carrent, jobit, tripguide, 
-  dashboard, crudOperations,bookify, wptheme, shoppingCart,   } from "../assets";
+  mobile, backend, creator, web, 
+  meta, shopify, starbucks, tesla,
+  html, css, javascript, reactjs, redux, tailwind, nodejs, mongodb, git, figma, threejs,
+  dashboard, crudOperations, bookify, wptheme, shoppingCart,   } from "../assets";
 
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    name: "About",
   },
   {
     id: "work",
-    title: "Work",
+    name: "Work",
+  },
+  {
+    id:"projects",
+    name:'Projects'
   },
   {
     id: "contact",
-    title: "Contact",
+    name: "Contact",
   },
 ];
 

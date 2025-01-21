@@ -1,5 +1,8 @@
 import React, { useRef, useState } from 'react'
 import { motion } from 'framer-motion'
+import { Canvas } from '@react-three/fiber';
+import { Environment, OrbitControls } from '@react-three/drei';
+import { Model } from '../../public/Model';
 
 const Contact = () => {
   const formRef = useRef();
@@ -19,7 +22,7 @@ const Contact = () => {
     setIsLoading(true);
   }
   return (
-     <div className="container mt-32 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden ">
+     <div className="container mt-32 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden " id="contact">
       {/* form section */}
       <motion.div
       
@@ -67,6 +70,16 @@ const Contact = () => {
       
       className='h-[350px] md:h-[550px] xl:h-auto xl:flex-1 bg-gray-700'
       >
+        <Canvas>
+          <ambientLight intensity={0.5} />
+          <OrbitControls
+            enableZoom={false}
+            enablePan={false}
+            enableRotate={true} // Keep rotation enabled
+            autoRotate={false} // Disable auto rotation
+          />
+          <Model />
+        </Canvas>
 
       </motion.div>
 

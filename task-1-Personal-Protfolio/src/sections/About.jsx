@@ -30,7 +30,7 @@ const About = ({parentRef}) => {
       I also excel in using UI libraries such as Tailwind CSS, Bootstrap, and Framer Motion, along with Figma for UI/UX design.
      </motion.p>
 
-     <div className="mt-14 mb-20 flex flex-wrap gap-10" >
+     <div className="mt-14 mb-20  flex flex-wrap gap-10" >
       {services.map((service, index)=> (
         <ServiceCard key={index} index={index} parentRef={parentRef} {...service} /> 
       ))}
@@ -46,7 +46,7 @@ export default About
 
 const ServiceCard = ({index, title, icon, parentRef}) =>{
   return (
-   <Tilt options={{ max: 45, scale: 1, speed: 450 }} className="xs:w-[250px] z-50">
+   <Tilt options={{ max: 45, scale: 1, speed: 450 }} className="xs:w-[250px] z-10">
      <motion.div
      drag dragConstraints={parentRef} // Restrict drag within parent
      initial={{opacity:0, x:50}}

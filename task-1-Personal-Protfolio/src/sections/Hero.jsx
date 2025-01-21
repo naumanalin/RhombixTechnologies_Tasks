@@ -1,15 +1,14 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import ComputersCanvas from '../canvas/ComputersCanvas';
 
 const Hero = () => {
   const heroHeading = 'font-black lg:text-[80px] sm:text-[60px] xs:text-[50px] text-[40px] lg:leading-[98px] ';
   const heroText = 'font-medium text-[#dfd9ff] lg:text[30px] sm:text-[26px] text-[16px] lg:leading-[40px]'
   return (
     <>
-    <section className= 'container pt-[90px] relative top-3'>
+    <section className= 'container pt-[90px] relative top-3 p-0' id='hero'>
       {/* Hero Info Section */}
-      <div className='flex gap-5'>
+      <div className='flex'>
         {/* line */}
         <div className="flex-ic-jc flex-col">
           <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
@@ -24,7 +23,6 @@ const Hero = () => {
       </div>
 
       {/* Hero 3D Model here */}
-      {/* <ComputersCanvas/> */}
 
 
       {/* Animated self build Icon */}
@@ -48,3 +46,5 @@ const Hero = () => {
 }
 
 export default Hero
+
+

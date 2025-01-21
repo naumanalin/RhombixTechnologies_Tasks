@@ -44,7 +44,8 @@ const ExperienceTimeLine = () => {
     initial={{ opacity:0, y:-100 }}
     whileInView={{ opacity:1, y:0 }}
     transition={{ duration:0.7, ease:"easeIn" }}
-    className='text-center my-28 '>  
+    className='text-center my-28 '
+    id='work'>  
 
       <p className="text-secondary tracking-wider text-sm">What I have done so far</p>
       <h2 className="text-white font-black text-3xl sm:text-[50px] md:text-[60px] sm:mt-1 md:mt-3 ">Work Experience.</h2>

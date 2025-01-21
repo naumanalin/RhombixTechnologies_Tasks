@@ -21,9 +21,7 @@ const HomeLayout = () => {
         <Projects />
     </div>
 
-    <div className="relative">
     <Contact />
-    </div>
 </>
   )
 }
