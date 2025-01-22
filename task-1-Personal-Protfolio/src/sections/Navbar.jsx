@@ -32,7 +32,7 @@ const Navbar = () => {
           <div className="hidden sm:block cursor-pointer">
             <ul className="flex-ic-jc gap-6">
               {navLinks.map((nav, index)=>(
-                <li> <a href={`#${nav.id}`}>{nav.name}</a> </li>
+                <li key={index}> <a href={`#${nav.id}`}>{nav.name}</a> </li>
               ))}
             </ul>
           </div>
@@ -58,7 +58,7 @@ const Navbar = () => {
             <ul className='flex-ic-jc flex-col gap-2'>
               {
                 navLinks.map((nav, index)=>(
-                  <li className='hover:font-bold'> <a href={`#${nav.id}`} > {nav.name} </a> </li>
+                  <li key={index} className='hover:font-bold'> <a href={`#${nav.id}`} > {nav.name} </a> </li>
                 ))
               }
             </ul>

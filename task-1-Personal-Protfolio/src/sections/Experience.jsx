@@ -5,9 +5,9 @@ import { motion } from 'framer-motion'
 import 'react-vertical-timeline-component/style.min.css';
 import { experiences } from '../constants/index.js'
 
-const ExperienceCard = ({ experience }) => {
+const ExperienceCard = ({ key, experience }) => {
   return (
-    <VerticalTimelineElement
+    <VerticalTimelineElement key={key}
     contentStyle={{
       background: '#1d1836',
     }}

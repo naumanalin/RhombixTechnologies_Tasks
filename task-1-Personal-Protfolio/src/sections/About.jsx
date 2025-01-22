@@ -1,5 +1,5 @@
 import React from "react";
-import Tilt from "react-tilt";
+import Tilt from "react-parallax-tilt";
 import { motion } from 'framer-motion';
 import { services } from '../constants/index.js';
 
@@ -46,7 +46,9 @@ export default About
 
 const ServiceCard = ({index, title, icon, parentRef}) =>{
   return (
-   <Tilt options={{ max: 45, scale: 1, speed: 450 }} className="xs:w-[250px] z-10">
+   <Tilt 
+  //  options={{ max: 45, scale: 1, speed: 450 }} 
+   className="xs:w-[250px] z-10">
      <motion.div
      drag dragConstraints={parentRef} // Restrict drag within parent
      initial={{opacity:0, x:50}}

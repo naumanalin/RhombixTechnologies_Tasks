@@ -1,4 +1,5 @@
 import React from 'react'
+import { ToastContainer } from 'react-toastify';
 import './index.css'
 import Navbar from './sections/Navbar'
 
@@ -25,6 +26,8 @@ function App() {
             <Route path="/project/:id" element={<SingleProject />} />
         </Route>
       </Routes>
+
+      <ToastContainer position="top-right" autoClose={5000} draggable pauseOnHover theme="light"/>
 
      </div>
     </>

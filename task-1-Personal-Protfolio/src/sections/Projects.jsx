@@ -1,5 +1,5 @@
 import React from "react";
-import Tilt from "react-tilt";
+import Tilt from "react-parallax-tilt";
 import { motion } from 'framer-motion';
 import { projects } from '../constants/index.js';
 import { github } from "../assets";
@@ -49,7 +49,7 @@ export default Projects
 
 const ProjectCard = ({index, name, id, description, tags, image, source_code_link}) => {
   return (
-    <Tilt options={{ max: 45, scale: 1, speed: 450 }} >
+    <Tilt  >
     <motion.div 
     
     className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
