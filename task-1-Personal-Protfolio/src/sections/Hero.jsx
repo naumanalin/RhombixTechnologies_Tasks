@@ -26,9 +26,9 @@ const Hero = () => {
 
 
       {/* Animated self build Icon */}
-      <div className="absolute xs:bottom-1 bottom-32 w-full flex-ic-jc ">
+      <div className="absolute -bottom-1 w-full flex-ic-jc ">
         <a href="#about">
-          <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary  p-2">
+          <div className="w-[30px] h-[60px] rounded-3xl border-4 border-secondary p-1">
             <motion.div
             animate={{ y:[0, 24, 0]}}
             transition={{ duration:1.5, repeat:Infinity, repeatType:"loop"}} 

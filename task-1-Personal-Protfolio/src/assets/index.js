@@ -7,10 +7,10 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 // Companies
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import mern from './mern.png'
+import react from "./tech/reactjs.png";
+import wordpress from './wp.png'
+import php from './php.png'
 
 // Tech Skills
 import html from "./tech/html.png";
@@ -42,7 +42,7 @@ export {
   backend, creator, mobile,web,
 
   // companies
-  meta, shopify, starbucks, tesla,
+  mern, react, wordpress, php,
 
   // technologies
   html, css, tailwind, javascript, reactjs, figma, git, mongodb, nodejs,  redux, threejs,

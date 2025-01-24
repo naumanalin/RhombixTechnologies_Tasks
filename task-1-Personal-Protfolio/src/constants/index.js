@@ -1,6 +1,6 @@
 import {
   mobile, backend, creator, web, 
-  meta, shopify, starbucks, tesla,
+  mern, react, wordpress, php,
   html, css, javascript, reactjs, redux, tailwind, nodejs, mongodb, git, figma, threejs,
   dashboard, crudOperations, bookify, wptheme, shoppingCart,   } from "../assets";
 
@@ -80,6 +80,14 @@ const technologies = [
     icon: threejs,
   },
   {
+    name: "PHP",
+    icon: php
+  },
+  {
+    name: "Wordpress",
+    icon: wordpress,
+  },
+  {
     name: "git",
     icon: git,
   },
@@ -92,7 +100,7 @@ const technologies = [
 const experiences = [
   {
     title: "MERN Stack Developer",
-    icon: tesla,
+    icon: mern,
     iconBg: "#E6DEDD",
     date: "Year 2024 - Present",
     points: [
@@ -104,7 +112,7 @@ const experiences = [
   },
   {
     title: "React.js Developer",
-    icon: starbucks,
+    icon: react,
     iconBg: "#383E56",
     date: "Year 2024 - Present",
     points: [
@@ -116,7 +124,7 @@ const experiences = [
   },
   {
     title: "WordPress Developer",
-    icon: shopify,
+    icon: wordpress,
     iconBg: "#383E56",
     date: "Jan 2024",
     points: [
@@ -127,7 +135,7 @@ const experiences = [
   },
   {
     title: "PHP Core Developer",
-    icon: meta,
+    icon: php,
     iconBg: "#E6DEDD",
     date: "Year 2023 - Present",
     points: [

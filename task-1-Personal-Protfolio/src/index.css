@@ -32,10 +32,23 @@
   );
 }
 
-.green-pink-gradient {
-  background: "#00cea8";
-  background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
-  background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+/* Animation */
+
+.logo-slider {
+  mask-image: linear-gradient(
+    to right,
+    transparent,
+    #000 5% 95%,
+    transparent
+  );
+  transition: filter 0.5s;
 }
 
+.logo-slider:hover .slider-item {
+  animation-play-state: paused!important;
+  filter: grayscale(1);
+}
 
+.logo-slider .slider-item:hover {
+  filter: grayscale(0);
+}

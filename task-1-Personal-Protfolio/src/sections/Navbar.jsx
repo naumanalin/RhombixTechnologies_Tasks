@@ -53,7 +53,7 @@ const Navbar = () => {
         initial={{ opacity: 0, y: -100 }}
         animate={{ opacity: 1, y: 0}}
         transition={{duration:0.25, ease:'linear'}}
-        className='absolute top-14 right-0 z-50 min-w-[310px] rounded-2xl bg-[#693bccea] py-4 px-2 m-2 '
+        className='fixed top-14 right-0 z-50 min-w-[310px] rounded-2xl bg-[#693bccea] py-4 px-2 m-2 '
         >
             <ul className='flex-ic-jc flex-col gap-2'>
               {
