@@ -10,9 +10,9 @@ const Projects = () => {
   return (
     <>
     <motion.div
-     initial={{ opacity:0, x: 100 }}
-     transition={{ duration:0.7, ease:"easeIn" }}
-     whileInView={{ opacity:1, x:0}}
+     initial={{ opacity:0, y:-50 }}
+     whileInView={{ opacity:1, y:0 }}
+     transition={{ duration:0.5, ease:"linear" }}
 
      className="py-3" id="projects">
       <p className="text-secondary tracking-wider text-sm">My Work</p>
@@ -21,9 +21,9 @@ const Projects = () => {
 
       {location.pathname === '/' &&
      <motion.p
-     initial={{ opacity:0, x:-100}}
-     whileInView={{ opacity:1, x:0}}
-     transition={{ duration:0.5, ease:"easeInOut"}}
+     initial={{ opacity:0, y:-50 }}
+     whileInView={{ opacity:1, y:0 }}
+     transition={{ duration:0.5, ease:"linear" }}
 
      className="text-secondary max-w-3xl leading-[30px] text-[17px]">
       Following projects showcases my skills and experience through

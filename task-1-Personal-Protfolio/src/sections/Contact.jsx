@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 import { Canvas } from '@react-three/fiber';
 import { Environment, OrbitControls } from '@react-three/drei';
 import {  toast } from 'react-toastify';
-// import { Model } from '../../public/Model';
+// import Model from '../../public/Model';
 
 const Contact = () => {
   const formRef = useRef();
@@ -109,7 +109,6 @@ const Contact = () => {
             autoRotate={true} // Enable smooth auto-rotation
             autoRotateSpeed={0.2} // Adjust the speed of rotation
           />
-          {/* <Model /> */}
         </Canvas>
       </motion.div>
     </div>

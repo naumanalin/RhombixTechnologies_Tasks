@@ -10,9 +10,9 @@ const About = () => {
   return (
     <>
      <motion.div
-     initial={{ opacity:0, x: 100 }}
-     transition={{ duration:0.7, ease:"easeIn" }}
-     whileInView={{ opacity:1, x:0}}
+     initial={{ opacity:0, y:-50 }}
+     whileInView={{ opacity:1, y:0 }}
+     transition={{ duration:0.5, ease:"linear" }}
 
      className="py-3" id="about">
       <p className="text-secondary tracking-wider text-sm">Intorduction</p>
@@ -20,9 +20,9 @@ const About = () => {
      </motion.div>
 
      <motion.p
-     initial={{ opacity:0, x:-100}}
-     whileInView={{ opacity:1, x:0}}
-     transition={{ duration:0.5, ease:"easeInOut"}}
+     initial={{ opacity:0, y:-50 }}
+     whileInView={{ opacity:1, y:0 }}
+     transition={{ duration:0.5, ease:"linear" }}
 
      className="text-secondary max-w-3xl leading-[30px] text-[17px]">
       I am a fresh graduate and aspiring software developer with a strong foundation in HTML5, CSS3, JavaScript, PHP, and MySQL. 

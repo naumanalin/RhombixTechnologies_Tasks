@@ -11,18 +11,18 @@ const TechSkills = () => {
     <>
     {/* Info Section */}
          <motion.div
-     initial={{ opacity:0, x: 100 }}
-     transition={{ duration:0.7, ease:"easeIn" }}
-     whileInView={{ opacity:1, x:0}}
+     initial={{ opacity:0, y:-50 }}
+     whileInView={{ opacity:1, y:0 }}
+     transition={{ duration:0.5, ease:"linear" }}
 
      className="py-3" id="about">
       <h2 className="text-white font-black text-3xl sm:text-[50px] md:text-[60px] sm:mt-1 md:mt-3 ">Skills</h2>
      </motion.div>
 
      <motion.p
-     initial={{ opacity:0, x:-100}}
-     whileInView={{ opacity:1, x:0}}
-     transition={{ duration:0.5, ease:"easeInOut"}}
+     initial={{ opacity:0, y:-50 }}
+     whileInView={{ opacity:1, y:0 }}
+     transition={{ duration:0.5, ease:"linear" }}
      className="text-secondary max-w-3xl leading-[30px] text-[17px]">
       I am fresh software engeneer skilled in following technologies currently the website you looking i developer it with reacct, tailwind, framer motion and three.js. That shows my known about programming and
      </motion.p>
