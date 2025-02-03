@@ -99,18 +99,16 @@ const Contact = () => {
       </motion.div>
 
       {/* Rotating Earth 3D-Model */}
-      <motion.div>
-        <Canvas className="w-full h-[350px] sm:h-[450px] md:h-[550px] xl:h-[700px]">
-          <ambientLight intensity={0.5} />
-          <OrbitControls
-            enableZoom={false}
-            enablePan={false}
-            enableRotate={true}
-            autoRotate={true} // Enable smooth auto-rotation
-            autoRotateSpeed={0.2} // Adjust the speed of rotation
-          />
-        </Canvas>
-      </motion.div>
+      <motion.div className="w-full h-[350px] sm:h-[450px] md:h-[550px] xl:h-[700px]">
+  <video 
+    src="/contact.mp4"  // Use '/contact.mp4' if placed in the public folder
+    loop 
+    autoPlay 
+    muted 
+    className="w-full h-full object-cover rounded-2xl"
+  />
+</motion.div>
+
     </div>
   )
 }
