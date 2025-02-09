@@ -100,13 +100,13 @@ const Contact = () => {
 
       {/* Rotating Earth 3D-Model */}
       <motion.div className="w-full h-[350px] sm:h-[450px] md:h-[550px] xl:h-[700px]">
-  <video 
+{/*   <video 
     src="/contact.mp4"  // Use '/contact.mp4' if placed in the public folder
     loop 
     autoPlay 
     muted 
     className="w-full h-full object-cover rounded-2xl"
-  />
+  /> */}
 </motion.div>
 
     </div>
