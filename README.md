@@ -18,6 +18,9 @@ Create a personal portfolio showcasing your skills, projects, and experience.
 - Tailwind CSS
 - Framer Motion
 
+**Live Link**:  
+[View Live Portfolio](https://noumanali.vercel.app/)
+
 **Screenshot**:  
 ![Portfolio Screenshot](./task-1-Personal-Protfolio/public/noumanali.vercel.app_.png)
 
