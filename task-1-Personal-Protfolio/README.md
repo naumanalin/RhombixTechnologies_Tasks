@@ -10,7 +10,7 @@ Welcome to my portfolio! This project showcases my skills and projects using mod
 
 ## Screenshot
 
-![Portfolio Screenshot](./noumanali.vercel.app_(1).png)
+![Portfolio Screenshot](./noumanali.vercel.app_.png)
 
 ## Overview
 
