@@ -19,7 +19,7 @@ Create a personal portfolio showcasing your skills, projects, and experience.
 - Framer Motion
 
 **Live Link**:  
-[View Live Portfolio](https://noumanali.vercel.app/)
+[View Live Portfolio](https://noumanali.vercel.app/){:target="_blank"}
 
 **Screenshot**:  
 ![Portfolio Screenshot](./task-1-Personal-Protfolio/public/noumanali.vercel.app_.png)
